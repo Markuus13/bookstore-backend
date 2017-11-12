@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-GOODREADS_URL = 'http://www.goodreads.com/list/show/643.Guilty_Pleasures_Crap_You_re_Embarrassed_to_Love'.freeze
+GOODREADS_URL = 'https://www.goodreads.com/list/show/643.Guilty_Pleasures_Crap_You_re_Embarrassed_to_Love'.freeze
 
 namespace :import do
   task goodreads: :environment do
