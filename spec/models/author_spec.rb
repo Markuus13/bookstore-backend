@@ -6,8 +6,8 @@ RSpec.describe Author, type: :model do
 
   describe "#to_s" do
     it "returns the author's name" do
-      author = FactoryBot.create(:author, name: "Foo Bar")
-      expect(author.name).to eq "Foo Bar"
+      author = FactoryBot.create(:author, name: "Martin Fowler")
+      expect(author.name).to eq "Martin Fowler"
     end
   end
 end
